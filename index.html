@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>APOSAN® | Control the OFF Moment</title>
+<meta name="description" content="Clinician-focused product management story for apomorphine and Parkinson's OFF episodes." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="progress"><span id="progressBar"></span></div>
+<header class="nav">
+  <a class="brand" href="#start"><span class="brand-mark">APOSAN<sup>®</sup></span><small>CONTROL THE OFF MOMENT</small></a>
+  <nav>
+    <a href="#journey">Patient Journey</a><a href="#off">Understanding OFF</a><a href="#science">The Science</a><a href="#landscape">Treatment Landscape</a><a href="#apomorphine">Why Apomorphine</a><a href="#evidence">Evidence</a><a href="#plan">12-Month Plan</a>
+  </nav>
+  <a class="nav-cta" href="#practice">Identify the OFF Patient <span>→</span></a>
+</header>
+
+<main>
+<section class="hero" id="start">
+  <div class="hero-image"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content reveal">
+    <div class="eyebrow">PARKINSON'S DISEASE · MOTOR FLUCTUATIONS</div>
+    <h1>Because life doesn't wait for the <em>next dose.</em></h1>
+    <p class="hero-lead">For patients living with troublesome OFF episodes, the clinical question is not only how to control Parkinson's overall — but how to respond when OFF happens.</p>
+    <div class="hero-actions"><a class="btn primary" href="#journey">Follow the patient journey <span>↓</span></a><a class="btn ghost" href="#apomorphine">Go to the clinical solution</a></div>
+    <div class="hero-note"><span class="dot"></span><span>Interview story: patient need → clinical gap → pharmacology → product → execution</span></div>
+  </div>
+  <div class="hero-quote">“I just want to get back to my day.”<small>— patient perspective</small></div>
+</section>
+
+<section class="chapter" id="journey">
+  <div class="section-head reveal"><div><span class="kicker">01 · START WITH THE PATIENT</span><h2>A day can change in minutes.</h2></div><p>Use this timeline first. It makes the clinical problem visible before the molecule is introduced.</p></div>
+  <div class="day-story">
+    <div class="story-photo"><img src="hero-patient.png" alt="Older man seated at home"/><div class="photo-caption">A patient with Parkinson's — living between ON and OFF</div></div>
+    <div class="timeline-panel">
+      <div class="timeline-line"><span id="timelineDot"></span></div>
+      <div class="timeline-card active" data-step="0"><span class="time">07:00</span><b>ON</b><strong>Morning routine</strong><p>Medication effect is adequate. He can start the day.</p></div>
+      <div class="timeline-card" data-step="1"><span class="time">10:30</span><b>OFF</b><strong>Sudden slowing</strong><p>Bradykinesia returns. Getting moving takes effort.</p></div>
+      <div class="timeline-card" data-step="2"><span class="time">13:00</span><b>ON</b><strong>Lunch with family</strong><p>Movement improves again as dopaminergic therapy takes effect.</p></div>
+      <div class="timeline-card" data-step="3"><span class="time">16:30</span><b>OFF</b><strong>Unpredictable interruption</strong><p>The next OFF arrives before he wants it to.</p></div>
+      <div class="timeline-card" data-step="4"><span class="time">19:00</span><b>ON</b><strong>Time with family</strong><p>The goal is not a perfect day — it is fewer moments lost to OFF.</p></div>
+      <div class="journey-controls"><button id="prev">←</button><span><i id="stepNo">01</i> / 05</span><button id="next">→</button></div>
+    </div>
+  </div>
+  <div class="clinical-question reveal"><div class="cq-label">THE CLINICAL QUESTION</div><div>How can we help an appropriate patient when an OFF episode <em>happens?</em></div><span>↓</span></div>
+</section>
+
+<section class="dark-section" id="off">
+  <div class="section-head light reveal"><div><span class="kicker">02 · DEFINE THE GAP</span><h2>OFF is a functional problem.</h2></div><p>Keep the explanation clinically useful: identify what changes for the patient and what the clinician is trying to solve.</p></div>
+  <div class="off-grid">
+    <div class="off-card reveal"><span class="number">01</span><h3>Wearing OFF</h3><p>Motor benefit becomes shorter or less predictable as the dosing interval progresses.</p><div class="mini-track"><i></i></div></div>
+    <div class="off-card reveal"><span class="number">02</span><h3>Delayed / inadequate ON</h3><p>The patient may experience a gap between taking therapy and regaining useful motor function.</p><div class="mini-track"><i></i></div></div>
+    <div class="off-card reveal"><span class="number">03</span><h3>Unpredictable OFF</h3><p>An OFF episode can interrupt walking, speaking, self-care or a planned activity.</p><div class="mini-track"><i></i></div></div>
+  </div>
+  <div class="off-bottom reveal"><div class="big-word">OFF</div><div><p class="large">The unmet need is <strong>moment-specific control.</strong></p><p>That reframes the product conversation from “another Parkinson's medicine” to a targeted rescue strategy for selected patients.</p></div></div>
+</section>
+
+<section class="science" id="science">
+  <div class="section-head reveal"><div><span class="kicker">03 · THE SCIENCE</span><h2>Why dopamine loss changes movement.</h2></div><p>One visual. One clinical takeaway. Avoid overloading the neurologist with a textbook pathway.</p></div>
+  <div class="brain-wrap reveal">
+    <div class="brain-copy"><div class="pill active">PARKINSON'S BRAIN</div><h3>Reduced nigrostriatal dopamine shifts basal-ganglia output toward movement inhibition.</h3><p>Loss of dopaminergic input from the substantia nigra pars compacta reduces facilitation of the direct pathway and increases the relative influence of the indirect pathway.</p><div class="science-chain"><span>↓ Dopamine</span><i>→</i><span>↑ GPi/SNr inhibitory output</span><i>→</i><span>↓ Thalamocortical drive</span><i>→</i><span>Bradykinesia</span></div></div>
+    <div class="brain-art brain-photo"><img src="brain-lobes-clinical.png" alt="Realistic anatomical lateral view of the human brain with clinically labeled lobes"/><div class="brain-photo-note">ANATOMICAL ORIENTATION · LATERAL VIEW</div></div>
+  </div>
+  <div class="takeaway reveal"><span>CLINICAL TAKEAWAY</span><strong>When endogenous dopamine is insufficient, directly stimulating dopamine receptors can bypass the need to generate dopamine from the lost neurons.</strong></div>
+</section>
+
+<section class="landscape" id="landscape">
+  <div class="section-head reveal"><div><span class="kicker">04 · TREATMENT LANDSCAPE</span><h2>Each therapy has a role — and a different job.</h2></div><p>Present the landscape without ranking therapies. The point is to identify where a rapid rescue option fits.</p></div>
+  <div class="matrix reveal">
+    <div class="matrix-row head"><span>Approach</span><span>Primary role</span><span>Question in the OFF moment</span></div>
+    <div class="matrix-row"><span><b>Levodopa-based therapy</b></span><span>Core symptomatic dopaminergic replacement</span><span>Can the patient obtain reliable control at the exact moment needed?</span></div>
+    <div class="matrix-row"><span><b>Dopamine agonists</b></span><span>Continuous / adjunct dopaminergic stimulation</span><span>Is the regimen adequate for this patient's fluctuation pattern?</span></div>
+    <div class="matrix-row"><span><b>MAO-B / COMT inhibitors</b></span><span>Extend or modify dopaminergic treatment effect</span><span>Do they solve an acute, already-established OFF episode?</span></div>
+    <div class="matrix-row focus"><span><b>SC apomorphine</b></span><span>Intermittent rescue for selected troublesome OFF episodes</span><span><strong>Can direct receptor stimulation provide a rapid ON response?</strong></span></div>
+    <div class="matrix-row"><span><b>Advanced device-based therapies</b></span><span>For selected patients with advanced motor complications</span><span>Is the patient's disease burden appropriate for an advanced strategy?</span></div>
+  </div>
+</section>
+
+<section class="apomorphine" id="apomorphine">
+  <div class="section-head light reveal"><div><span class="kicker">05 · WHY APOMORPHINE</span><h2>A direct dopaminergic route to the OFF moment.</h2></div><p>Explain the molecule in one clean chain — then introduce APOSAN® as the delivery proposition.</p></div>
+  <div class="mechanism reveal">
+    <div class="mech-step"><small>01</small><div class="circle">SC</div><h3>Subcutaneous delivery</h3><p>Rapid systemic delivery avoids dependence on gastrointestinal absorption.</p></div>
+    <div class="arrow">→</div>
+    <div class="mech-step"><small>02</small><div class="circle">DA</div><h3>Dopamine receptor agonism</h3><p>Apomorphine directly stimulates dopamine receptors rather than requiring conversion to dopamine.</p></div>
+    <div class="arrow">→</div>
+    <div class="mech-step"><small>03</small><div class="circle">ON</div><h3>Motor response</h3><p>In appropriate patients, the intended clinical outcome is reversal of an OFF episode.</p></div>
+  </div>
+  <div class="product-band reveal"><div class="product-copy"><span class="kicker">APOSAN® · RUSAN PHARMA</span><h3>From clinical need to practical delivery.</h3><p>Rusan's public information describes APOSAN® (apomorphine injection) for motor fluctuations / ON-OFF phenomena not sufficiently controlled by oral anti-Parkinson medications. The public product page lists 10 mg/mL presentations and an onset claim of 4–10 minutes.</p><div class="product-proof"><span>4–10 min<small>publicly stated onset</small></span><span>10 mg/mL<small>listed injection strength</small></span><span>SC<small>route of administration</small></span></div></div><div class="pen-visual"><div class="pen-shadow"></div><div class="pen"><span class="pen-logo">APOSAN<sup>®</sup></span><i></i><b></b></div><div class="pen-label">conceptual product visual<br/><small>verify local PI before use</small></div></div></div>
+  <div class="portfolio reveal"><div class="portfolio-card"><span>INJECTION</span><strong>Initiation / titration</strong><small>For clinical use and dose optimization according to approved information.</small></div><div class="portfolio-card focus"><span>PEN</span><strong>Intermittent rescue</strong><small>Designed around the OFF moment for selected patients.</small></div><div class="portfolio-card"><span>PUMP</span><strong>Continuous infusion</strong><small>For selected advanced patients with persistent motor fluctuations.</small></div></div>
+</section>
+
+<section class="evidence" id="evidence">
+  <div class="section-head reveal"><div><span class="kicker">06 · EVIDENCE → FIELD COMMUNICATION</span><h2>Don't make the LBL a wall of text.</h2></div><p>Show one clinical question, one pivotal result, then translate it into a physician conversation.</p></div>
+  <div class="evidence-grid">
+    <div class="evidence-stat reveal"><span>RANDOMIZED · DOUBLE-BLIND · PLACEBO-CONTROLLED</span><strong>29</strong><small>patients with advanced PD and ≥2 h OFF despite aggressive oral therapy</small><hr/><div class="result"><b>−23.9</b><span>UPDRS motor score change at 20 min with apomorphine</span></div><div class="result"><b>95%</b><span>outpatient injections successfully aborted OFF events</span></div><a href="https://pubmed.ncbi.nlm.nih.gov/11559309/" target="_blank">View PubMed record →</a></div>
+    <div class="lbl-stage reveal"><div class="paper"><div class="paper-top"><span>CLINICAL EVIDENCE · LBL</span><b>BREAKING THE OFF CYCLE</b></div><div class="paper-question">Can intermittent SC apomorphine rapidly reverse an established OFF episode?</div><div class="paper-result"><div><strong>−23.9</strong><span>UPDRS motor score change at 20 min</span></div><div><strong>95%</strong><span>successful OFF-event abortion</span></div></div><div class="paper-bottom"><span>Dewey et al. · Arch Neurol · 2001</span><span>PMID 11559309</span></div></div><a class="download" href="lbl-clinical-evidence.svg" download>Download LBL →</a></div>
+  </div>
+  <div class="evidence-note">Evidence note: the study above is apomorphine molecule/class evidence, not a claim that these results were generated specifically with the Rusan APOSAN® brand. Use the approved local product information and promotional review process for brand-specific materials.</div>
+</section>
+
+<section class="practice" id="practice">
+  <div class="section-head reveal"><div><span class="kicker">07 · CLINICIAN VISUAL AID</span><h2>One page the field team can actually use.</h2></div><p>Move from mechanism to patient identification to action. Keep the conversation clinician-first.</p></div>
+  <div class="va-wrap reveal"><img src="visual-aid-clinician.svg" alt="Clinician visual aid for APOSAN OFF episode discussion"/><div class="va-side"><div class="va-call"><span>ASK</span><strong>“How often does your patient have troublesome OFF episodes?”</strong></div><div class="va-call"><span>IDENTIFY</span><strong>Predictable? Unpredictable? Delayed ON? Functional interruption?</strong></div><div class="va-call"><span>DISCUSS</span><strong>For an appropriate patient, consider whether a rapid SC rescue strategy fits the treatment plan.</strong></div><a class="download" href="visual-aid-clinician.svg" download>Download visual aid →</a></div></div>
+</section>
+
+<section class="plan" id="plan">
+  <div class="section-head light reveal"><div><span class="kicker">08 · 12-MONTH BRAND PLAN</span><h2>Build the brand in three disciplined moves.</h2></div><p>No clutter. Each phase has one strategic job, field actions and measurable outputs.</p></div>
+  <div class="plan-rail">
+    <div class="phase reveal"><div class="phase-top"><span>Q1–Q2</span><b>ESTABLISH</b></div><h3>Make OFF visible.</h3><p>Build neurologist recognition of troublesome OFF patterns and define the appropriate-patient conversation.</p><ul><li>Segment priority movement-disorder accounts</li><li>Train field force on OFF recognition + objection handling</li><li>Launch OFF-focused VA / LBL / case discussion</li></ul><div class="metric">OUTPUT <strong>Account coverage · trained reps · scientific interactions</strong></div></div>
+    <div class="phase active reveal"><div class="phase-top"><span>Q3</span><b>ACTIVATE</b></div><h3>Make rescue practical.</h3><p>Convert scientific awareness into confidence around patient selection, device initiation and follow-up.</p><ul><li>Small-group KOL case workshops</li><li>Pen demonstration + initiation support workflow</li><li>Capture field objections and close evidence gaps</li></ul><div class="metric">OUTPUT <strong>Qualified patients · initiations · repeat prescribers</strong></div></div>
+    <div class="phase reveal"><div class="phase-top"><span>Q4</span><b>SCALE</b></div><h3>Build scientific recall.</h3><p>Turn early learning into a repeatable brand system without losing clinical discipline.</p><ul><li>Real-world insight synthesis</li><li>Refine account plans by patient archetype</li><li>Refresh evidence communication and rep certification</li></ul><div class="metric">OUTPUT <strong>Persistence · account growth · insight closure</strong></div></div>
+  </div>
+  <div class="plan-bottom reveal"><span>MY PM PRINCIPLE</span><strong>Don't sell the pen first. <em>Earn the right to discuss the pen</em> by first understanding the OFF moment.</strong></div>
+</section>
+
+<section class="sources" id="sources">
+  <div><span class="kicker">REFERENCES & CLAIM DISCIPLINE</span><h2>Built for a scientific conversation.</h2></div>
+  <div class="source-list"><p><b>1.</b> Rusan Pharma. APOSAN® public product information. urlRusan APOSAN pageturn0search0</p><p><b>2.</b> Dewey RB Jr et al. A randomized, double-blind, placebo-controlled trial of subcutaneously injected apomorphine for parkinsonian off-state events. <i>Arch Neurol.</i> 2001;58:1385–1392. PMID 11559309. urlPubMedturn0search1</p><p><b>3.</b> Katzenschlager R et al. TOLEDO: apomorphine subcutaneous infusion in persistent motor fluctuations. <i>Lancet Neurol.</i> 2018. PMID 30055903. urlPubMedturn0search5</p></div>
+  <div class="footer-note">For interview / educational demonstration. Brand-specific claims, dosing, contraindications, warnings and promotional wording must be checked against the current approved local PI and internal medical-legal-regulatory review before field use.</div>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
