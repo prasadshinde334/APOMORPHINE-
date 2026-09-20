@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#071412"/>
+<text x="100" y="105" fill="#55d6a0" font-family="Arial" font-size="30" font-weight="700" letter-spacing="5">APOSAN® PEN · CLINICIAN VISUAL AID</text>
+<text x="100" y="185" fill="white" font-family="Arial" font-size="72" font-weight="800">WHEN OFF CAN'T WAIT.</text>
+<text x="100" y="235" fill="#a8bbb5" font-family="Arial" font-size="28">A practical conversation around troublesome motor OFF episodes</text>
+<g transform="translate(100 330)">
+ <circle cx="95" cy="80" r="58" fill="#d8b49a"/><path d="M38 73 Q95 15 152 73 Q140 25 95 20 Q50 25 38 73" fill="#343b42"/>
+ <path d="M20 285 Q95 180 170 285 L170 410 L20 410Z" fill="#4b6b83"/>
+ <path d="M65 125 Q95 145 125 125" stroke="#8b3d48" stroke-width="8" fill="none"/>
+ <text x="220" y="80" fill="#ff8d96" font-family="Arial" font-size="28" font-weight="700">OFF</text>
+ <text x="220" y="125" fill="white" font-family="Arial" font-size="25">Bradykinesia · rigidity · difficulty walking</text>
+ <text x="220" y="170" fill="#a8bbb5" font-family="Arial" font-size="22">Identify the pattern, impact and predictability.</text>
+</g>
+<g transform="translate(600 330)">
+ <rect x="0" y="20" width="220" height="100" rx="25" fill="#102c24" stroke="#55d6a0" stroke-width="3"/>
+ <text x="110" y="62" text-anchor="middle" fill="#55d6a0" font-family="Arial" font-size="22" font-weight="700">NEED</text>
+ <text x="110" y="96" text-anchor="middle" fill="white" font-family="Arial" font-size="19">Rapid rescue option</text>
+ <path d="M240 70 H330" stroke="#55d6a0" stroke-width="5" marker-end="url(#a)"/>
+ <rect x="350" y="0" width="240" height="140" rx="28" fill="#f3f6f2"/>
+ <rect x="430" y="25" width="80" height="95" rx="20" fill="#cfd8d4" stroke="#263a34" stroke-width="3"/>
+ <circle cx="470" cy="100" r="12" fill="#55d6a0"/>
+ <text x="470" y="-18" text-anchor="middle" fill="#55d6a0" font-family="Arial" font-size="22" font-weight="700">SC APOMORPHINE</text>
+ <text x="470" y="168" text-anchor="middle" fill="white" font-family="Arial" font-size="20">Direct dopamine receptor agonist</text>
+</g>
+<g transform="translate(100 650)">
+ <rect x="0" y="0" width="1400" height="130" rx="28" fill="#10251f" stroke="#2b5044"/>
+ <text x="70" y="52" fill="#55d6a0" font-family="Arial" font-size="23" font-weight="700">CLINICAL FLOW</text>
+ <text x="70" y="95" fill="white" font-family="Arial" font-size="31" font-weight="800">OFF</text>
+ <text x="175" y="95" fill="#55d6a0" font-family="Arial" font-size="30">→</text>
+ <text x="230" y="95" fill="white" font-family="Arial" font-size="31" font-weight="800">IDENTIFY NEED</text>
+ <text x="505" y="95" fill="#55d6a0" font-family="Arial" font-size="30">→</text>
+ <text x="560" y="95" fill="white" font-family="Arial" font-size="31" font-weight="800">SC APOMORPHINE</text>
+ <text x="900" y="95" fill="#55d6a0" font-family="Arial" font-size="30">→</text>
+ <text x="955" y="95" fill="#55d6a0" font-family="Arial" font-size="31" font-weight="800">ON</text>
+ <text x="1050" y="95" fill="#a8bbb5" font-family="Arial" font-size="20">· selected patients · physician-led</text>
+</g>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#55d6a0"/></marker></defs>
+</svg>

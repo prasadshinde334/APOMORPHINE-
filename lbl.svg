@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+<rect width="1600" height="1100" fill="#f3f6f2"/>
+<rect width="1600" height="170" fill="#071412"/>
+<text x="90" y="65" fill="#55d6a0" font-family="Arial" font-size="24" font-weight="700" letter-spacing="4">EVIDENCE LBL · APOMORPHINE</text>
+<text x="90" y="125" fill="white" font-family="Arial" font-size="55" font-weight="800">BREAKING THE OFF CYCLE</text>
+<text x="90" y="215" fill="#36aa7d" font-family="Arial" font-size="25" font-weight="700">CLINICAL QUESTION</text>
+<text x="90" y="260" fill="#12211d" font-family="Arial" font-size="36" font-weight="800">Can intermittent SC apomorphine rapidly reverse OFF-state disability?</text>
+<rect x="90" y="310" width="1420" height="220" rx="24" fill="white" stroke="#d7e2dc"/>
+<text x="125" y="355" fill="#36aa7d" font-family="Arial" font-size="21" font-weight="700">RANDOMIZED, DOUBLE-BLIND, PLACEBO-CONTROLLED STUDY · DEWEY ET AL., 2001</text>
+<text x="125" y="405" fill="#12211d" font-family="Arial" font-size="27" font-weight="700">Population</text>
+<text x="125" y="445" fill="#52645e" font-family="Arial" font-size="23">29 patients with advanced Parkinson's disease and ≥2 hours of OFF time despite aggressive oral therapy</text>
+<text x="125" y="490" fill="#12211d" font-family="Arial" font-size="27" font-weight="700">Intervention</text>
+<text x="325" y="490" fill="#52645e" font-family="Arial" font-size="23">Titrated SC apomorphine, 2–10 mg</text>
+<rect x="90" y="575" width="690" height="260" rx="24" fill="#10251f"/>
+<text x="125" y="625" fill="#55d6a0" font-family="Arial" font-size="21" font-weight="700">20-MINUTE MOTOR RESPONSE</text>
+<text x="125" y="700" fill="white" font-family="Arial" font-size="52" font-weight="800">−23.9 vs −0.1</text>
+<text x="125" y="745" fill="#a8bbb5" font-family="Arial" font-size="22">mean UPDRS motor score change</text>
+<text x="125" y="790" fill="#55d6a0" font-family="Arial" font-size="22" font-weight="700">Apomorphine vs placebo · P&lt;0.001</text>
+<rect x="820" y="575" width="690" height="260" rx="24" fill="white" stroke="#d7e2dc"/>
+<text x="855" y="625" fill="#36aa7d" font-family="Arial" font-size="21" font-weight="700">OUTPATIENT OFF-EPISODE RESPONSE</text>
+<text x="855" y="700" fill="#12211d" font-family="Arial" font-size="52" font-weight="800">95% vs 23%</text>
+<text x="855" y="745" fill="#52645e" font-family="Arial" font-size="22">injections successfully aborted OFF events</text>
+<text x="855" y="790" fill="#52645e" font-family="Arial" font-size="22">Apomorphine vs placebo · P&lt;0.001</text>
+<rect x="90" y="885" width="1420" height="125" rx="24" fill="#e7f1ec"/>
+<text x="125" y="930" fill="#12211d" font-family="Arial" font-size="22" font-weight="700">CLINICAL RELEVANCE</text>
+<text x="125" y="970" fill="#52645e" font-family="Arial" font-size="21">Evidence supports intermittent SC apomorphine as an acute rescue option for appropriately selected patients experiencing OFF episodes.</text>
+<text x="90" y="1060" fill="#6a7872" font-family="Arial" font-size="18">Source: Dewey RB Jr et al. Arch Neurol. 2001;58:1385–1392. PMID 11559309. Educational concept; verify current PI/MLR requirements.</text>
+</svg>
